@@ -11,7 +11,8 @@ let line = [
   ];
   //Create a polyline using the line coordinates and make the line red.
   L.polyline(line, {
-    color: "yellow"
+    color: "blue",
+    type: "MultiLineString"
   }).addTo(map);
 
 // We create the tile layer that will be the background of our map.
