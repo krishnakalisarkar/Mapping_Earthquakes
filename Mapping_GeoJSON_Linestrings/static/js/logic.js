@@ -17,6 +17,11 @@
    // zoom: 2,
    // layers: [light]
 //});
+
+//let baseMaps = {
+   // Night: dark,
+    //Day: light
+  //};
 // Accessing the Toronto airline routes GeoJSON URL.
 //let torontoData = "https://raw.githubusercontent.com/krishnakalisarkar/Mapping_Earthquakes/main/torontoRoutes.json";
 // Grabbing our GeoJSON data.
@@ -39,12 +44,20 @@ let dayNav = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-day
     accessToken: API_KEY
 });
 
+// Create a base layer that holds both maps.
+let baseMaps = {
+    Night: nightNav,
+    Day: dayNav
+  };
+
 // Create the map object with a center and zoom level.
 let map = L.map('mapid',{
     center: [44.0, -80.0],
     zoom: 2,
     layers: [nightNav]
 });
+// Pass our map layers into our layers control and add the layers control to the map.
+L.control.layers(baseMaps).addTo(map);
 // Accessing the Toronto airline routes GeoJSON URL.
 let torontoData = "https://raw.githubusercontent.com/krishnakalisarkar/Mapping_Earthquakes/main/torontoRoutes.json";
 // Create a style for the lines.
