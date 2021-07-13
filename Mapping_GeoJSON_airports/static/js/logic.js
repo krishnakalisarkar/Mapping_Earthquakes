@@ -17,8 +17,8 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 // Create a base layer that holds both maps.
 let baseMaps = {
-    Street: streets,
-    Dark: dark
+    "Street": streets,
+    "Dark": dark
   };
 // Create the map object with a center and zoom level.
 let map = L.map('mapid',{
