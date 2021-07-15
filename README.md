@@ -20,7 +20,7 @@ The purpose of this study is to create an interactive map using GeoJSON data, th
 
 ### Adding the Tectonic Plate lines.
 
-![tectonicplate]()
+![tectonicplate](Earthquake_Challenge/Images/tectonic_satellite.png)
 
 Once all the earthquake data was mapped it was interesting to visualize the earthquake data in relation to the tectonic plates location on the earth. To achieve this, the tectonic plate lines were overlaid over the base maps.
 
