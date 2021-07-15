@@ -2,7 +2,7 @@
 
 Mapping Earthquakes using GeoJSON and Leaflet using USGS data.
 
-![readMe image]()
+![readMe image](Earthquake_Challenge/Images/readMe.png)
 
 ## Purpose of this study:
 
