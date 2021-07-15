@@ -32,7 +32,7 @@ To visualize the major earthquakes with a magnitude above 4.5, a separate layer 
 
 ### Additional map.
 
-![dark]()
+![dark](Earthquake_Challenge/Images/dark_earthquake_majorEQ.png)
 
 A third base map namely dark mode was created to visualize the all the above data on that map.
 
