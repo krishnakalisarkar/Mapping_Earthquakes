@@ -26,7 +26,7 @@ Once all the earthquake data was mapped it was interesting to visualize the eart
 
 ### Major Earthquakes above 4.5 magnitude all over the world with blinker.
 
-![majorEQ]()
+![majorEQ](Earthquake_Challenge/Images/majorEQ_streets.png)
 
 To visualize the major earthquakes with a magnitude above 4.5, a separate layer group was created namely majorEQ and was overlaid over the base maps. A blinker was added in the style info which caused the earthquake locations to blink.
 
