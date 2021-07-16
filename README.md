@@ -2,7 +2,9 @@
 
 Mapping Earthquakes using GeoJSON and Leaflet using USGS data.
 
-![readMe image]()
+This project is published at: https://krishnakalisarkar.github.io/Mapping_Earthquakes/Earthquake_Challenge/index.html
+
+![readMe image](Earthquake_Challenge/Images/readMe.png)
 
 ## Purpose of this study:
 
@@ -20,19 +22,19 @@ The purpose of this study is to create an interactive map using GeoJSON data, th
 
 ### Adding the Tectonic Plate lines.
 
-![tectonicplate]()
+![tectonicplate](Earthquake_Challenge/Images/tectonic_satellite.png)
 
 Once all the earthquake data was mapped it was interesting to visualize the earthquake data in relation to the tectonic plates location on the earth. To achieve this, the tectonic plate lines were overlaid over the base maps.
 
 ### Major Earthquakes above 4.5 magnitude all over the world with blinker.
 
-![majorEQ]()
+![majorEQ](Earthquake_Challenge/Images/majorEQ_streets.png)
 
 To visualize the major earthquakes with a magnitude above 4.5, a separate layer group was created namely majorEQ and was overlaid over the base maps. A blinker was added in the style info which caused the earthquake locations to blink.
 
 ### Additional map.
 
-![dark]()
+![dark](Earthquake_Challenge/Images/dark_earthquake_majorEQ.png)
 
 A third base map namely dark mode was created to visualize the all the above data on that map.
 
