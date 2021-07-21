@@ -2,7 +2,7 @@
 
 Mapping Earthquakes using GeoJSON and Leaflet using USGS data.
 
-This project is published at: https://krishnakalisarkar.github.io/Mapping_Earthquakes/Earthquake_Challenge/index.html
+This project is published at: https://krishnakalisarkar.github.io/Mapping_Earthquakes/
 
 ![readMe image](Earthquake_Challenge/Images/readMe.png)
 
